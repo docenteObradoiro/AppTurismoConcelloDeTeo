@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.cursokotlin.appturismoconcellodeteo.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_redDeRutas"
+        android:name="com.cursokotlin.appturismoconcellodeteo.ui.redDeRutas.RedDeRutasFragment"
+        android:label="@string/menu_redDeRutas"
+        tools:layout="@layout/fragment_redderutas" />
+
+    <fragment
+        android:id="@+id/nav_actividades"
+        android:name="com.cursokotlin.appturismoconcellodeteo.ui.actividades.ActividadesFragment"
+        android:label="@string/menu_actividades"
+        tools:layout="@layout/fragment_actividades" />
+
+    <fragment
+        android:id="@+id/nav_artesania"
+        android:name="com.cursokotlin.appturismoconcellodeteo.ui.artesania.ArtesaniaFragment"
+        android:label="@string/menu_artesania"
+        tools:layout="@layout/fragment_artesania" />
+
+    <fragment
+        android:id="@+id/nav_patrimonio"
+        android:name="com.cursokotlin.appturismoconcellodeteo.ui.patrimonio.PatrimonioFragment"
+        android:label="@string/menu_patrimonio"
+        tools:layout="@layout/fragment_patrimonio" />
+
+</navigation>
