@@ -5,24 +5,20 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_baseline_home_24"
-            android:title="@string/menu_home" />
+            android:id="@+id/nav_novas"
+            android:icon="@drawable/ic_baseline_news_24"
+            android:title="@string/menu_novas" />
         <item
-            android:id="@+id/nav_redDeRutas"
-            android:icon="@drawable/ic_baseline_hiking_24"
-            android:title="@string/menu_redDeRutas" />
+            android:id="@+id/nav_convocatorias"
+            android:icon="@drawable/ic_baseline_convocatoria_24"
+            android:title="@string/menu_convocatorias" />
         <item
-            android:id="@+id/nav_actividades"
-            android:icon="@drawable/ic_baseline_group_24"
-            android:title="@string/menu_actividades" />
+            android:id="@+id/nav_documentacion"
+            android:icon="@drawable/ic_baseline_documentacion_24"
+            android:title="@string/menu_documentacion" />
         <item
-            android:id="@+id/nav_patrimonio"
-            android:icon="@drawable/ic_baseline_church_24"
-            android:title="@string/menu_patrimonio" />
-        <item
-            android:id="@+id/nav_artesania"
-            android:icon="@drawable/ic_baseline_handyman_24"
-            android:title="@string/menu_artesania" />
+            android:id="@+id/nav_normativa"
+            android:icon="@drawable/ic_baseline_normativa_24"
+            android:title="@string/menu_normativa" />
     </group>
 </menu>
