@@ -28,7 +28,7 @@ class NovasFragment : Fragment() {
         _binding = FragmentNovasBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textHome
+        val textView: TextView = binding.textNovas
         homeViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
