@@ -1,4 +1,4 @@
-package com.cursokotlin.appturismoconcellodeteo.ui.redDeRutas
+package com.cursokotlin.appturismoconcellodeteo.ui.convocatorias
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.cursokotlin.appturismoconcellodeteo.R
 
-class RedDeRutasFragment : Fragment() {
+class ConvocatoriasFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -15,7 +15,7 @@ class RedDeRutasFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
-        val root = inflater.inflate(R.layout.fragment_redderutas,container,false)
+        val root = inflater.inflate(R.layout.fragment_convocatorias,container,false)
 
         return root
     }

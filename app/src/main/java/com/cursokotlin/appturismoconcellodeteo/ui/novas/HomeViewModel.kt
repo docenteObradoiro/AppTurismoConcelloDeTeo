@@ -1,4 +1,4 @@
-package com.cursokotlin.appturismoconcellodeteo.ui.home
+package com.cursokotlin.appturismoconcellodeteo.ui.novas
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

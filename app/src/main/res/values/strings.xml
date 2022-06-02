@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AppTurismoConcelloDeTeo</string>
+    <string name="app_name">InformaTeo</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -7,9 +7,8 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_redDeRutas">Red de Rutas</string>
-    <string name="menu_actividades">Actividades</string>
-    <string name="menu_patrimonio">Patrimonio</string>
-    <string name="menu_artesania">Artesanía</string>
+    <string name="menu_novas">Novas</string>
+    <string name="menu_convocatorias">Convocatorias</string>
+    <string name="menu_documentacion">Documentación Administrativa</string>
+    <string name="menu_normativa">Normativa Municipal</string>
 </resources>

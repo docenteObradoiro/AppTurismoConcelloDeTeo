@@ -3,36 +3,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_novas">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.cursokotlin.appturismoconcellodeteo.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_novas"
+        android:name="com.cursokotlin.appturismoconcellodeteo.ui.novas.NovasFragment"
+        android:label="@string/menu_novas"
+        tools:layout="@layout/fragment_novas" />
 
     <fragment
-        android:id="@+id/nav_redDeRutas"
-        android:name="com.cursokotlin.appturismoconcellodeteo.ui.redDeRutas.RedDeRutasFragment"
-        android:label="@string/menu_redDeRutas"
-        tools:layout="@layout/fragment_redderutas" />
+        android:id="@+id/nav_convocatorias"
+        android:name="com.cursokotlin.appturismoconcellodeteo.ui.convocatorias.ConvocatoriasFragment"
+        android:label="@string/menu_convocatorias"
+        tools:layout="@layout/fragment_convocatorias" />
 
     <fragment
-        android:id="@+id/nav_actividades"
-        android:name="com.cursokotlin.appturismoconcellodeteo.ui.actividades.ActividadesFragment"
-        android:label="@string/menu_actividades"
-        tools:layout="@layout/fragment_actividades" />
+        android:id="@+id/nav_documentacion"
+        android:name="com.cursokotlin.appturismoconcellodeteo.ui.documentacion.DocumentacionFragment"
+        android:label="@string/menu_documentacion"
+        tools:layout="@layout/fragment_documentacion" />
 
     <fragment
-        android:id="@+id/nav_artesania"
-        android:name="com.cursokotlin.appturismoconcellodeteo.ui.artesania.ArtesaniaFragment"
-        android:label="@string/menu_artesania"
-        tools:layout="@layout/fragment_artesania" />
-
-    <fragment
-        android:id="@+id/nav_patrimonio"
-        android:name="com.cursokotlin.appturismoconcellodeteo.ui.patrimonio.PatrimonioFragment"
-        android:label="@string/menu_patrimonio"
-        tools:layout="@layout/fragment_patrimonio" />
+        android:id="@+id/nav_normativa"
+        android:name="com.cursokotlin.appturismoconcellodeteo.ui.normativa.NormativaFragment"
+        android:label="@string/menu_normativa"
+        tools:layout="@layout/fragment_normativa" />
 
 </navigation>
