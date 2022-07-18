@@ -11,4 +11,7 @@
     <string name="menu_convocatorias">Convocatorias</string>
     <string name="menu_documentacion">Documentación Administrativa</string>
     <string name="menu_normativa">Normativa Municipal</string>
+
+    <string name="informateo">Informateo</string>
+    <string name="concelloteo">Concello de Teo</string>
 </resources>
